@@ -70,3 +70,10 @@ body{
   flex-direction: column;
   justify-content: space-around;
 }
+.like-btn-container{
+  display: inline;
+}
+.like-btn{
+  width: 10rem;
+  margin: 1rem;
+}

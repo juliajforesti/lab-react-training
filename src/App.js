@@ -6,7 +6,9 @@ import Random from './components/Random';
 import BoxColor from './components/BoxColor';
 import CreditCard from './components/CreditCard';
 import Rating from './components/Rating';
-import DriverCard from './components/DriveCard'
+import DriverCard from './components/DriveCard';
+import LikeButton from './components/LikeButton';
+import ClickablePicture from './components/ClickablePicture';
 
 const App = (props) => {
   return (
@@ -53,7 +55,6 @@ const App = (props) => {
       <Rating>3</Rating>
       <Rating>4</Rating>
       <Rating>5</Rating>
-
       <DriverCard
         name="Travis Kalanick"
         rating={4.2}
@@ -71,6 +72,11 @@ const App = (props) => {
           model: 'Audi A3',
           licensePlate: 'BE33ER',
         }}
+      />
+      <LikeButton /> <LikeButton />
+      <ClickablePicture
+        img="/img/persons/maxence.png"
+        imgClicked="/img/persons/maxence-glasses.png"
       />
     </div>
   );
