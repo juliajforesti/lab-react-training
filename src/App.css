@@ -5,6 +5,9 @@
 body{
   margin: 2rem;
 }
+h1{
+  margin: 1rem 0;
+}
 .card-container {
   display: flex;
   align-items: center;
@@ -76,4 +79,23 @@ body{
 .like-btn{
   width: 10rem;
   margin: 1rem;
+}
+
+.dice-img{
+  width: 10rem;
+}
+.carousel-container{
+  display: flex;
+}
+.square{
+  border: 2px solid black;
+  width: 6rem;
+  height: 6rem;
+  display: inline-flex;
+  align-items: center;
+}
+.square>p{
+  text-align: center;
+  width: 100%;
+  font-size: 2rem;
 }

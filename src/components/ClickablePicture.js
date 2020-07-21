@@ -19,7 +19,6 @@ const ClickablePicture = (props) => {
 
   return (  
     <div className="picture-container">
-      <h1>Clickable Picture</h1>
       <img onClick={imgClick} src={state.imgPath} alt=""/>
     </div>
   );

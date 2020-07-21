@@ -6,9 +6,8 @@ const LikeButton = (props) => {
   })
 
   const addLike = () => {
-    setState(prevState => {
-      prevState.likes++
-      return {...prevState}
+    setState({
+      likes: state.likes += 1
     })
   }
 
