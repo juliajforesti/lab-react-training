@@ -11,11 +11,13 @@ body{
   justify-content: space-around;
   border: 2px solid black;
   width: 30rem;
+  margin: 2rem 0;
 }
 
 .container{
   border: 2px solid black;
   width: 30rem;
+  margin: 1rem 0;
 }
 
 .credit-card{
@@ -25,6 +27,14 @@ body{
   padding: 20px;
   display: flex;
   flex-direction: column;
+  margin: 1rem 0;
+}
+.credit-card>p{
+  margin: 0.6rem 1rem;
+}
+
+.rating-card{
+  margin: 1rem;
 }
 
 .card-img{
@@ -37,7 +47,7 @@ body{
 
 .drive-card{
   background-color: #455eb4;
-  border-radius: 0.3rem;
+  border-radius: 0.4rem;
   width: 40rem;
   margin: 1rem;
   display: flex;
@@ -48,11 +58,15 @@ body{
 
 .drive-card-img{
   object-fit: cover;
-  width:6rem;
-  height:6rem;
+  width: 5rem;
+  height: 5rem;
   border-radius: 50%;
-  margin: 2rem;
+  margin: 1rem;
 }
 .drive-card-info{
   width: 15rem;
+  height: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }

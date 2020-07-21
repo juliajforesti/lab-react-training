@@ -7,7 +7,7 @@ const DriverCard = (props) => {
     <div className="drive-card">
       <img className="drive-card-img" src={img} alt="img" />
       <div className="drive-card-info">
-        <h4>{name}</h4>
+        <h3>{name}</h3>
         <div>
           {[...Array(Math.round(rating))].map((item, idx) => (
             <i key={idx} className="fa fa-star" aria-hidden="true"></i>

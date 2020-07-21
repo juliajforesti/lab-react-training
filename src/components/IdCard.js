@@ -2,7 +2,7 @@ import React from 'react';
 
 const IdCard = (props) => {
   const { lastName, firstName, gender, height, birth, picture } = props;
-  // console.log(birth.getDate())
+
   return (
     <div className='card-container' >
       <div>
