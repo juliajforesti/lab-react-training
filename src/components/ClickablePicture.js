@@ -18,7 +18,7 @@ const ClickablePicture = (props) => {
   }
 
   return (  
-    <div className="picture-container">
+    <div className="picture-container ml-5">
       <img onClick={imgClick} src={state.imgPath} alt=""/>
     </div>
   );

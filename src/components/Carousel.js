@@ -9,6 +9,7 @@ const Carousel = (props) => {
   });
 
   const length = state.imgPath.length
+  
   const btnLeft = () => {
     setState({
       ...state,
@@ -22,9 +23,9 @@ const Carousel = (props) => {
     })
   }
   return (  
-    <div className="carousel-container">
+    <div className="carousel-container w-50 ml-5">
       <button onClick={btnLeft}> <i className="fa fa-arrow-left" aria-hidden="true"></i> </button>
-      <img src={state.imgPath[state.index]} alt=""/>
+      <img src={state.imgPath[state.index]} className='w-50' alt=""/>
       <button onClick={btnRight}> <i className="fa fa-arrow-right" aria-hidden="true"></i> </button>
     </div>
   );

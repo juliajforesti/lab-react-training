@@ -2,11 +2,10 @@ import React from 'react';
 
 const NumbersTable = (props) => {
   const { limit } = props;
-
   const numArr = [...Array(limit)];
-  console.log(numArr);
+
   return (
-    <div className="table-container">
+    <div className="table-container w-75">
       {numArr.map((item, idx) => {
         if (idx % 2 === 0) {
           return (

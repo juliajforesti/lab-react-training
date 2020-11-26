@@ -4,7 +4,7 @@ import 'font-awesome/css/font-awesome.min.css';
 const DriverCard = (props) => {
   const { name, rating, img, car } = props;
   return (
-    <div className="drive-card">
+    <div className="drive-card h-50">
       <img className="drive-card-img" src={img} alt="img" />
       <div className="drive-card-info">
         <h3>{name}</h3>

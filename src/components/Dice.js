@@ -26,8 +26,9 @@ const Dice = (props) => {
   }
 
   return (
-    <div className="dice-container">
+    <div className="dice-container ml-5">
       <img onClick={throwDice} className="dice-img" src={state.dicePath} alt="" />
+      <p className='mt-5'>Click on the dice roll :) </p>
     </div>
   );
 };

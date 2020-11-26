@@ -12,7 +12,7 @@ h1{
   display: flex;
   align-items: center;
   justify-content: space-around;
-  border: 2px solid black;
+  border: 5px solid red;
   width: 30rem;
   margin: 2rem 0;
 }
@@ -79,6 +79,11 @@ h1{
 .like-btn{
   width: 10rem;
   margin: 1rem;
+  padding: 0.3rem;
+  border: 1px solid black;
+  border-radius: 1rem;
+  color: white;
+  font-weight: bolder;
 }
 
 .dice-img{
@@ -98,4 +103,25 @@ h1{
   text-align: center;
   width: 100%;
   font-size: 2rem;
+}
+
+.facebook-card{
+  display: flex;
+  padding: 0.8rem;
+
+}
+.facebook-card-img{
+  object-fit: cover;
+  width: 5rem;
+  height: 5rem;
+}
+.facebook-card-info{
+  padding-left: 1rem;
+}
+.country-btn{
+  margin: 0.2rem;
+  padding: 0.2rem;
+}
+.selected{
+  background-color: #455eb4;
 }
